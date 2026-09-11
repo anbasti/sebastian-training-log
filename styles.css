@@ -8,9 +8,13 @@
   --green-bg: #ecfdf5;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -19,8 +23,14 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-button, input { font: inherit; }
-button { cursor: pointer; }
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
 
 header {
   position: sticky;
@@ -29,6 +39,12 @@ header {
   color: white;
   background: var(--ink);
   border-bottom: 1px solid #44403c;
+
+  /*
+    Keeps the header below the Dynamic Island / status area
+    when the app is opened from the iPhone Home Screen.
+  */
+  padding-top: max(12px, env(safe-area-inset-top, 0px));
 }
 
 .masthead,
@@ -45,18 +61,22 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 14px;
+  min-height: 54px;
+  padding-top: 12px;
   padding-bottom: 14px;
   font-size: 12px;
+  font-weight: 800;
   letter-spacing: 0.12em;
 }
 
 .masthead button {
+  min-height: 38px;
   border: 0;
   color: #fef3c7;
   background: transparent;
   font-size: 12px;
   font-weight: 800;
+  letter-spacing: 0.08em;
   text-decoration: underline;
 }
 
@@ -90,14 +110,20 @@ main {
   color: var(--muted);
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 0;
   letter-spacing: -0.04em;
   line-height: 1.04;
 }
 
-h1 { font-size: 34px; }
-h2 { font-size: 25px; }
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 25px;
+}
 
 .subtle {
   margin: 8px 0 0;
@@ -148,14 +174,18 @@ input[type="date"] {
   font-weight: 800;
 }
 
-.day-tab:last-child { border-right: 0; }
+.day-tab:last-child {
+  border-right: 0;
+}
 
 .day-tab.active {
   background: var(--ink);
   color: white;
 }
 
-.workout { margin-top: 28px; }
+.workout {
+  margin-top: 28px;
+}
 
 .exercise-head,
 .exercise-row {
@@ -177,7 +207,9 @@ input[type="date"] {
   text-transform: uppercase;
 }
 
-.exercise-head span:last-child { text-align: right; }
+.exercise-head span:last-child {
+  text-align: right;
+}
 
 .exercise-row {
   border: 1px solid var(--line);
@@ -186,8 +218,13 @@ input[type="date"] {
   padding: 14px 10px;
 }
 
-.exercise-row:last-child { border-bottom: 1px solid var(--line); }
-.exercise-row.completed { background: var(--green-bg); }
+.exercise-row:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.exercise-row.completed {
+  background: var(--green-bg);
+}
 
 .exercise-row input[type="checkbox"] {
   width: 20px;
@@ -211,10 +248,34 @@ input[type="date"] {
   margin: 7px 0 0;
   color: var(--muted);
   font-size: 12px;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
-.weight-wrap { position: relative; }
+.rest-line {
+  display: block;
+  margin-top: 2px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.source-link {
+  display: inline-block;
+  margin-top: 7px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.source-link:hover {
+  color: #78350f;
+}
+
+.weight-wrap {
+  position: relative;
+}
 
 .weight {
   width: 100%;
@@ -242,7 +303,10 @@ input[type="date"] {
   margin-top: 14px;
 }
 
-.actions .subtle { margin: 0; font-size: 12px; }
+.actions .subtle {
+  margin: 0;
+  font-size: 12px;
+}
 
 .danger,
 .backup button,
@@ -256,7 +320,9 @@ input[type="date"] {
   text-transform: uppercase;
 }
 
-.danger { color: #991b1b; }
+.danger {
+  color: #991b1b;
+}
 
 .section {
   margin-top: 36px;
@@ -280,7 +346,9 @@ input[type="date"] {
   text-align: left;
 }
 
-.history-row strong { font-size: 14px; }
+.history-row strong {
+  font-size: 14px;
+}
 
 .history-row small {
   display: block;
@@ -303,7 +371,9 @@ input[type="date"] {
   border-bottom: 1px solid var(--line);
 }
 
-.guardrails strong { font-size: 14px; }
+.guardrails strong {
+  font-size: 14px;
+}
 
 .guardrails p {
   margin: 5px 0 0;
@@ -326,7 +396,9 @@ input[type="date"] {
   line-height: 1.5;
 }
 
-.backup-actions { margin-top: 18px; }
+.backup-actions {
+  margin-top: 18px;
+}
 
 .backup button {
   border-color: var(--accent);
@@ -342,11 +414,13 @@ input[type="date"] {
   cursor: pointer;
 }
 
-.restore-button input { display: none; }
+.restore-button input {
+  display: none;
+}
 
 footer {
   padding-top: 20px;
-  padding-bottom: 35px;
+  padding-bottom: max(35px, calc(env(safe-area-inset-bottom, 0px) + 20px));
   color: #78716c;
   font-size: 11px;
   line-height: 1.5;
@@ -355,7 +429,7 @@ footer {
 .toast {
   position: fixed;
   right: 16px;
-  bottom: 18px;
+  bottom: max(18px, calc(env(safe-area-inset-bottom, 0px) + 12px));
   left: 16px;
   z-index: 20;
   display: none;
@@ -368,12 +442,20 @@ footer {
 
 button:focus-visible,
 input:focus-visible,
-.restore-button:focus-within {
+.restore-button:focus-within,
+.source-link:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
 @media (min-width: 600px) {
-  .masthead { padding-left: 0; padding-right: 0; }
-  .toast { left: auto; width: 360px; }
+  .masthead {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .toast {
+    left: auto;
+    width: 360px;
+  }
 }
