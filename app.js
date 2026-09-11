@@ -11,10 +11,10 @@ const plan = {
         "2 × 12–15",
         "45 sec",
         "Elbow pinned to your side; move slowly.",
-        {
-          label: "Science-based playlist — source exercise",
-          url: playlistUrl
-        }
+       {
+  label: "Athlean-X Perfect Chest Workout — 05:56",
+  url: "https://www.youtube.com/watch?v=zD266B2jk0s&t=356s"
+}
       ],
       [
         "Incline dumbbell bench press",
@@ -108,10 +108,10 @@ const plan = {
         "3 × 6–8",
         "2–3 min",
         "Brace first; use a pain-free depth.",
-        {
-          label: "Science-based playlist — source exercise",
-          url: playlistUrl
-        }
+  {
+  label: "Athlean-X Perfect Legs Workout — 08:58",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=538s"
+}
       ],
       [
         "Barbell Romanian deadlift",
@@ -195,10 +195,10 @@ const plan = {
         "3 × 10–15",
         "60 sec",
         "No bouncing; use full range.",
-        {
-          label: "Science-based playlist — source exercise",
-          url: playlistUrl
-        }
+{
+  label: "Athlean-X Perfect Legs Workout — 14:09",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=849s"
+}
       ]
     ]
   },
@@ -309,20 +309,20 @@ const plan = {
         "3 × 6–8",
         "2–3 min",
         "Control descent; keep the whole foot planted.",
-        {
-          label: "Science-based playlist — source exercise",
-          url: playlistUrl
-        }
+ {
+  label: "Athlean-X Perfect Legs Workout — 17:17",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=1037s"
+}
       ],
       [
         "Barbell hip thrust",
         "3 × 8–10",
         "2 min",
         "Brief squeeze at top; avoid overextension.",
-        {
-          label: "Science-based playlist — source exercise",
-          url: playlistUrl
-        }
+  {
+  label: "Athlean-X Perfect Legs Workout — 20:09",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=1209s"
+}
       ],
       [
         "Dumbbell Spanish squat",
@@ -359,10 +359,10 @@ const plan = {
         "3 × 12–15",
         "60 sec",
         "Hold stretched and top positions.",
-        {
-          label: "Science-based playlist — source exercise",
-          url: playlistUrl
-        }
+      {
+  label: "Athlean-X Perfect Legs Workout — 14:09",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=849s"
+}
       ],
       [
         "Russian twist-and-press",
