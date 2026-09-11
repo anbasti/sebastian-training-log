@@ -11,9 +11,9 @@ const plan = {
         "2 × 12–15",
         "45 sec",
         "Elbow pinned to your side; move slowly.",
-       {
-  label: "Athlean-X Perfect Chest Workout — 05:56",
-  url: "https://www.youtube.com/watch?v=zD266B2jk0s&t=356s"
+      {
+  label: "Athlean-X Perfect Chest Workout — 03:55",
+  url: "https://www.youtube.com/watch?v=zD266B2jk0s&t=235s"
 }
       ],
       [
@@ -108,9 +108,9 @@ const plan = {
         "3 × 6–8",
         "2–3 min",
         "Brace first; use a pain-free depth.",
-  {
-  label: "Athlean-X Perfect Legs Workout — 08:58",
-  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=538s"
+{
+  label: "Athlean-X Perfect Legs Workout — 05:32",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=332s"
 }
       ],
       [
@@ -196,8 +196,8 @@ const plan = {
         "60 sec",
         "No bouncing; use full range.",
 {
-  label: "Athlean-X Perfect Legs Workout — 14:09",
-  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=849s"
+  label: "Athlean-X Perfect Legs Workout — 08:48",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=528s"
 }
       ]
     ]
@@ -309,9 +309,9 @@ const plan = {
         "3 × 6–8",
         "2–3 min",
         "Control descent; keep the whole foot planted.",
- {
-  label: "Athlean-X Perfect Legs Workout — 17:17",
-  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=1037s"
+{
+  label: "Athlean-X Perfect Legs Workout — 10:33",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=633s"
 }
       ],
       [
@@ -319,9 +319,9 @@ const plan = {
         "3 × 8–10",
         "2 min",
         "Brief squeeze at top; avoid overextension.",
-  {
-  label: "Athlean-X Perfect Legs Workout — 20:09",
-  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=1209s"
+{
+  label: "Athlean-X Perfect Legs Workout — 12:08",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=728s"
 }
       ],
       [
@@ -359,9 +359,9 @@ const plan = {
         "3 × 12–15",
         "60 sec",
         "Hold stretched and top positions.",
-      {
-  label: "Athlean-X Perfect Legs Workout — 14:09",
-  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=849s"
+{
+  label: "Athlean-X Perfect Legs Workout — 08:48",
+  url: "https://www.youtube.com/watch?v=QXtXEug0PLU&t=528s"
 }
       ],
       [
