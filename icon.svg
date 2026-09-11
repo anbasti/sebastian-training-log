@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#171717"/>
+  <rect x="78" y="232" width="356" height="48" fill="#b45309"/>
+  <rect x="118" y="178" width="48" height="156" fill="#b45309"/>
+  <rect x="346" y="178" width="48" height="156" fill="#b45309"/>
+  <rect x="58" y="158" width="48" height="196" fill="#fafaf9"/>
+  <rect x="406" y="158" width="48" height="196" fill="#fafaf9"/>
+  <text x="256" y="438"
+        fill="#fafaf9"
+        font-family="Arial, sans-serif"
+        font-size="46"
+        font-weight="700"
+        text-anchor="middle">LOG</text>
+</svg>
