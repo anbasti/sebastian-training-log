@@ -1,4 +1,4 @@
-const CACHE_NAME = "sebastian-training-log-v3";
+const CACHE_NAME = "sebastian-training-log-v4";
 
 const APP_FILES = [
   "./",
